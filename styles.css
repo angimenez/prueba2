@@ -1,0 +1,22 @@
+/*El selector universal nos permite aplicar un estilos a todos los elementos de la página */
+* {}
+
+/* Selector de elementos le aplica los estilos a la etiqueta que nombramos*/
+div {}
+
+
+.alerta{
+    border: 3px solid red;
+}
+
+/* Selector por clase con selector universal */
+p.parrafo{
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+/* Selector de ID */
+#titulo1{
+    border: 2px dotted orange;
+}
